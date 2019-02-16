@@ -1,57 +1,72 @@
 package arkham.knight.practica3;
 
+import arkham.knight.practica3.encapsulacion.Articulo;
 import arkham.knight.practica3.service.BootStrapService;
 import arkham.knight.practica3.service.DataBaseService;
+import arkham.knight.practica3.service.ArticuloService;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
         //Iniciando el servicio
-      /*  BootStrapService.startDb();
+        try {
+            BootStrapService.startDb();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
         //Prueba de Conexión.
         DataBaseService.getInstancia().testConexion();
 
-        BootStrapService.crearTablas();
+        try {
+            BootStrapService.crearTablas();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         //
-        EstudianteService estudianteServices = new EstudianteServices();
+        ArticuloService ArticuloService = new ArticuloService();
 
         //Insertando
-        Estudiante insertar = new Estudiante();
-        insertar.setMatricula(20011137);
-        insertar.setNombre("Carlos");
-        insertar.setApellido("Camacho");
-        insertar.setTelefono("849-220-6409");
-        insertar.setCarrera("ISC");
-        if(estudianteServices.getEstudiante(insertar.getMatricula())==null){
-            estudianteServices.crearEstudiante(insertar);
+        Articulo articulo = new Articulo();
+        articulo.setId(1);
+        articulo.setTitulo("Arroz");
+        articulo.setCuerpo("Con leche");
+
+        if(ArticuloService.getArticulo(articulo.getId())==null){
+            ArticuloService.crearArticulo(articulo);
         }
 
-        List<Estudiante> listaEstudiantes = estudianteServices.listaEstudiantes();
-        System.out.println("La cantidad de estudiantes: "+listaEstudiantes.size());
-        for(Estudiante est : listaEstudiantes){
-            System.out.println("La matricula: "+est.getMatricula());
+        List<Articulo> listaArticulos = ArticuloService.listaArticulos();
+        System.out.println("La cantidad de Articulos: "+listaArticulos.size());
+        for(Articulo art : listaArticulos){
+            System.out.println("La matricula: "+art.getId());
         }
 
-        Estudiante estudiante = estudianteServices.getEstudiante(20011136);
-        if(estudiante!=null){
-            System.out.println("El nombre es: "+estudiante.getNombre());
+        Articulo Articulo = ArticuloService.getArticulo(1);
+        if(Articulo!=null){
+            System.out.println("El nombre es: "+Articulo.getTitulo());
         }else{
-            System.out.println("No exite el usuario consultado");
+            System.out.println("No existe el articulo consultado");
         }
 
         //Actualizando
-        insertar.setNombre("Cambiando el nombre.....");
-        estudianteServices.actualizarEstudiante(insertar);
+        articulo.setTitulo("Cambiando el titulo.....");
+        ArticuloService.actualizarArticulo(articulo);
 
         //Eleminando...
-        //estudianteServices.borrarEstudiante(insertar.getMatricula());
+        //ArticuloServices.borrarArticulo(insertar.getMatricula());
 
         //Parando el servicio
-        BootStrapServices.stopDb();
-    }*/
+        try {
+            BootStrapService.stopDb();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     }
-}
+
+
