@@ -1,4 +1,6 @@
 package arkham.knight.practica3.implement;
 
-public class EtiquetaImplement {
+import arkham.knight.practica3.dao.EtiquetaDAO;
+
+public class EtiquetaImplement implements EtiquetaDAO {
 }

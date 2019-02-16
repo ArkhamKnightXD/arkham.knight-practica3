@@ -1,4 +1,6 @@
 package arkham.knight.practica3.implement;
 
-public class ComentarioImplement {
+import arkham.knight.practica3.dao.ComentarioDAO;
+
+public class ComentarioImplement implements ComentarioDAO {
 }

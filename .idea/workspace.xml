@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8493d43f-8cfc-44a2-b7f6-8ca4a4ab4171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/manejotemplate/Ruta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/manejotemplate/TemplateThymeleaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/EtiquetaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/ArticuloControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/ArticulosControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/InicioControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/LoginControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/NoControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/UsuarioControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,38 +69,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/EtiquetaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="432">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -119,11 +159,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -184,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550282978483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550284368173" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -241,12 +289,12 @@
       <updated>1550077655275</updated>
       <workItem from="1550077657287" duration="1071000" />
       <workItem from="1550280844010" duration="118000" />
-      <workItem from="1550281704477" duration="1229000" />
+      <workItem from="1550281704477" duration="2743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4678000" />
+    <option name="totallyTimeSpent" value="6192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -287,76 +335,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -371,104 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,6 +402,169 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/ArticuloControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/LoginControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/UsuarioControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/ArticulosControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/NoControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/control/InicioControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ComentarioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/UsuarioImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/EtiquetaImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ComentarioImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/implement/ArticuloImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/UsuarioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/EtiquetaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Etiqueta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Comentario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

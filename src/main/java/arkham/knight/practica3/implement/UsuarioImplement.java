@@ -1,4 +1,6 @@
 package arkham.knight.practica3.implement;
 
-public class UsuarioImplement {
+import arkham.knight.practica3.dao.UsuarioDAO;
+
+public class UsuarioImplement implements UsuarioDAO {
 }

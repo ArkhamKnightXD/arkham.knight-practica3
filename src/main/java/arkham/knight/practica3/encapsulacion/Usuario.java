@@ -7,6 +7,23 @@ public class Usuario {
     private boolean administrador;
     private boolean autor;
 
+    public Usuario(String username, String nombre, String password, boolean administrador, boolean autor) {
+        this.username = username;
+        this.nombre = nombre;
+        this.password = password;
+        this.administrador = administrador;
+        this.autor = autor;
+    }
+
+    public Usuario() {
+    }
+
+    @Override
+    public String toString() {
+        String mensaje="El username del usuario es: "+username;
+        return mensaje;
+    }
+
     public String getUsername() {
         return username;
     }
@@ -47,12 +64,5 @@ public class Usuario {
         this.autor = autor;
     }
 
-    public Usuario(String username, String nombre, String password, boolean administrador, boolean autor) {
-        this.username = username;
-        this.nombre = nombre;
-        this.password = password;
-        this.administrador = administrador;
-        this.autor = autor;
-    }
 
 }
