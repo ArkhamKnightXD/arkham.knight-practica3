@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="../../bootstrap/css/bootstrap.min.css"
+          th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" media="screen"/>
+    <link href="../../css/main.css" th:href="@{css/main.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<!-- Top content -->
+<div id="container" class="container">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>Bienvenidos a </strong>BLOG!</h1>
+                    <div class="description">
+                        <p>
+                            Esta es una pagina para escribir articulos y a su vez comentarlos. Disfruten!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h3>Iniciar sesion en el sitio.</h3>
+                            <p>Digite cuenta de usuario y contrasena para iniciar sesion:</p>
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-key"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <form role="form" action="" method="post" class="login-form">
+                            <div class="form-group">
+                                <label class="sr-only" for="usuario">Usuario: </label>
+                                <input type="text" name="usuario" placeholder="Digite cuenta de usuario"
+                                       class="form-username form-control" id="usuario">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="password">Contrasena: </label>
+                                <input type="password" name="password" placeholder="Digite contrasena"
+                                       class="form-password form-control" id="password">
+                            </div>
+                            <button type="submit" class="btn">Iniciar sesion!</button>
+                            No tiene cuenta?<a th:href="@{usuario/crearUsuario}"> Registrese!</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="body"></div>
+    <div id="footer">
+        <div class="container">
+            <p>Pucmm, Programacion Web 2017 © Todos los derechos reservados</p>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elements = document.getElementsByTagName("INPUT");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].oninvalid = function (e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    e.target.setCustomValidity("Campo no puede estar vacio.");
+                }
+            };
+            elements[i].oninput = function (e) {
+                e.target.setCustomValidity("");
+            };
+        }
+    })
+</script>
+<script src="/javascript/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.js"></script>
+</html>
