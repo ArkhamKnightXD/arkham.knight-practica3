@@ -31,8 +31,8 @@ public class Main {
         ArticuloService ArticuloService = new ArticuloService();
         //Insertando
         Articulo articulo = new Articulo();
-        articulo.setId(1);
-        articulo.setTitulo("Arroz");
+
+        articulo.setTitulo("trigo");
         articulo.setCuerpo("Con leche");
 
 
@@ -44,6 +44,14 @@ public class Main {
         System.out.println("La cantidad de Articulos: "+listaArticulos.size());
         for(Articulo art : listaArticulos){
             System.out.println("El id es: "+art.getId());
+        }
+
+        for(Articulo art : listaArticulos){
+            System.out.println("El titulo es: "+art.getTitulo());
+        }
+
+        for(Articulo art : listaArticulos){
+            System.out.println("El cuerpo es: "+art.getCuerpo());
         }
 
         Articulo Articulo = ArticuloService.getArticulo(1);

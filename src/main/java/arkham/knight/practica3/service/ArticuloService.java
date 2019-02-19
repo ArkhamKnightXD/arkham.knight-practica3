@@ -29,7 +29,7 @@ public class ArticuloService {
                 articulo.setId(resultado.getLong("id"));
                 articulo.setTitulo(resultado.getString("titulo"));
                 articulo.setCuerpo(resultado.getString("cuerpo"));
-                articulo.setFecha(resultado.getDate("fecha"));
+             //   articulo.setFecha(resultado.getDate("fecha"));
               //  articulo.setFecha(resultado.getString("fecha"));
 
                 lista.add(articulo);
@@ -67,7 +67,7 @@ public class ArticuloService {
                 articulo.setId(resultado.getLong("id"));
                 articulo.setTitulo(resultado.getString("titulo"));
                 articulo.setCuerpo(resultado.getString("cuerpo"));
-                articulo.setFecha(resultado.getDate("fecha"));
+             //   articulo.setFecha(resultado.getDate("fecha"));
             }
 
         } catch (SQLException ex) {

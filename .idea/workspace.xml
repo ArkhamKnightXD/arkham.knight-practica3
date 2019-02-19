@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8493d43f-8cfc-44a2-b7f6-8ca4a4ab4171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ba6e5d4b-183e-4e97-87d4-41680882ce00.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/ArticuloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/ArticuloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/BootStrapService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/DataBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/DataBaseService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="124" column="42" selection-start-line="124" selection-start-column="42" selection-end-line="124" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="94" column="34" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="46">
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="92">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,8 +155,8 @@
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/dao/ArticuloDAO.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" />
       </list>
@@ -240,7 +229,7 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550545236775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550546500260" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -305,16 +294,15 @@
       <workItem from="1550375789898" duration="2205000" />
       <workItem from="1550527729487" duration="5174000" />
       <workItem from="1550540504744" duration="677000" />
-      <workItem from="1550542471408" duration="2646000" />
+      <workItem from="1550542471408" duration="4015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24143000" />
+    <option name="totallyTimeSpent" value="25512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -325,7 +313,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32820514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="124" column="42" selection-start-line="124" selection-start-column="42" selection-end-line="124" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -525,18 +506,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="46">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="92">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
