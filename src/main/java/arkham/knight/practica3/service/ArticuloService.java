@@ -128,7 +128,7 @@ public class ArticuloService {
         Connection conexionUpdate = null;
         try {
 
-            String query = "update Articulo set tiulo=?, cuerpo=? where id = ?";
+            String query = "update Articulo set titulo=?, cuerpo=? where id = ?";
             conexionUpdate = DataBaseService.getInstancia().getConexion();
             //
             PreparedStatement prepareStatement = conexionUpdate.prepareStatement(query);

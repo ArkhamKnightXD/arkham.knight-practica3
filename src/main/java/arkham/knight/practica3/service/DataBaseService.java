@@ -43,19 +43,19 @@ public class DataBaseService {
     }
 
     public Connection getConexion() {
-        Connection con = null;
+        Connection conexion= null;
         try {
-            con = DriverManager.getConnection(URL, "sa", "");
+            conexion = DriverManager.getConnection(URL, "sa", "");
         } catch (SQLException ex) {
             Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return con;
+        return conexion;
     }
 
     public void testConexion() {
         try {
             getConexion().close();
-            System.out.println("Conexión realizado con exito...");
+            System.out.println("Conexion exitosa...");
         } catch (SQLException ex) {
             Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
         }

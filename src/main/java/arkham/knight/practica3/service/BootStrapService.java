@@ -35,14 +35,15 @@ public class BootStrapService {
                 "  ID INTEGER PRIMARY KEY NOT NULL,\n" +
                 "  TITULO VARCHAR(100) NOT NULL,\n" +
                 "  CUERPO VARCHAR(100) NOT NULL,\n" +
-                "  FECHA date NOT NULL,\n" +
-                "  AUTOR VARCHAR(100) NOT NULL\n" +
+                "  FECHA DATE  NULL,\n" +
+                "  AUTOR VARCHAR(50)  NULL,\n" +
+                "  COMENTARIO VARCHAR(100)  NULL,\n" +
+                "  ETIQUETA VARCHAR(50)  NULL\n" +
                 ");";
-
-        Connection con = DataBaseService.getInstancia().getConexion();
-        Statement statement = con.createStatement();
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+        Statement statement = conexion.createStatement();
         statement.execute(sql);
         statement.close();
-        con.close();
+        conexion.close();
     }
 }
