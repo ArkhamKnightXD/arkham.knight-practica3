@@ -25,25 +25,69 @@ public class BootStrapService {
     }
 
 
-    /**
-     * Metodo para recrear las tablas necesarios
-     * @throws SQLException
-     */
-    public static void crearTablas() throws  SQLException{
-        String sql = "CREATE TABLE IF NOT EXISTS ARTICULO\n" +
-                "(\n" +
-                "  ID INTEGER PRIMARY KEY NOT NULL,\n" +
-                "  TITULO VARCHAR(100) NOT NULL,\n" +
-                "  CUERPO VARCHAR(100) NOT NULL,\n" +
-                "  FECHA DATE  NULL,\n" +
-                "  AUTOR VARCHAR(50)  NULL,\n" +
-                "  COMENTARIO VARCHAR(100)  NULL,\n" +
-                "  ETIQUETA VARCHAR(50)  NULL\n" +
-                ");";
+    public static void ejecutarSQL(String sql) throws SQLException {
         Connection conexion = DataBaseService.getInstancia().getConexion();
+
         Statement statement = conexion.createStatement();
+
         statement.execute(sql);
         statement.close();
+
         conexion.close();
+    }
+
+    /*
+            Crea todas las tablas por medio de SQL.
+     */
+
+    public static void crearTablas() throws SQLException {
+        ejecutarSQL(
+                "CREATE TABLE IF NOT EXISTS etiquetas\n" +
+                        "(\n" +
+                        "id BIGINT auto_increment PRIMARY KEY,\n" +
+                        "etiqueta VARCHAR(100) NOT NULL\n" +
+                        ");");
+
+        ejecutarSQL(
+                "CREATE TABLE IF NOT EXISTS usuarios\n" +
+                        "(\n" +
+                        "id BIGINT PRIMARY KEY NOT NULL,\n" +
+                        "username VARCHAR(40) UNIQUE NOT NULL, \n" +
+                        "password VARCHAR(40) NOT NULL, \n" +
+                        "administrator BOOLEAN NOT NULL, \n" +
+                        "autor BOOLEAN NOT NULL, \n" +
+                        "sesion VARCHAR(1000)" +
+                        ");");
+
+        ejecutarSQL(
+                "CREATE TABLE IF NOT EXISTS articulos\n" +
+                        "(\n" +
+                        "id BIGINT PRIMARY KEY NOT NULL,\n" +
+                        "titulo VARCHAR(100) UNIQUE NOT NULL, \n" +
+                        "cuerpo VARCHAR(10000) NOT NULL, \n" +
+                        "usuarioID BIGINT, \n" +
+                        "fecha DATE NOT NULL, \n" +
+                        "FOREIGN KEY(usuarioID) REFERENCES usuarios(id)" +
+                        ");");
+
+        ejecutarSQL(
+                "CREATE TABLE IF NOT EXISTS comentarios\n" +
+                        "(\n" +
+                        "id BIGINT PRIMARY KEY NOT NULL,\n" +
+                        "comentario VARCHAR(1000) NOT NULL, \n" +
+                        "autor VARCHAR(40) NOT NULL, \n" +
+                        "articuloID BIGINT, \n" +
+                        "FOREIGN KEY(articuloID) REFERENCES articulos(id)" +
+                        ");");
+
+        ejecutarSQL("create table if not exists articulosYetiquetas\n" +
+                "  (\n" +
+                "    id bigint auto_increment PRIMARY KEY,\n" +
+                "    articulo bigint,\n" +
+                "    etiqueta bigint,\n" +
+                "    FOREIGN KEY (articulo) REFERENCES articulos(id),\n" +
+                "    FOREIGN KEY (etiqueta) REFERENCES etiquetas(id)\n" +
+                "  );");
+
     }
 }

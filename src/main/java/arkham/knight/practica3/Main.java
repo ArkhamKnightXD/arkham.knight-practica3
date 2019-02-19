@@ -28,7 +28,7 @@ public class Main {
             e.printStackTrace();
         }
         //
-        ArticuloService ArticuloService = new ArticuloService();
+/*        ArticuloService ArticuloService = new ArticuloService();
         //Insertando
         Articulo articulo = new Articulo();
 
@@ -68,7 +68,7 @@ public class Main {
         //Eleminando...
         //ArticuloServices.borrarArticulo(insertar.getMatricula());
 
-        //Parando el servicio
+  */      //Parando el servicio
         try {
             BootStrapService.stopDb();
         } catch (SQLException e) {

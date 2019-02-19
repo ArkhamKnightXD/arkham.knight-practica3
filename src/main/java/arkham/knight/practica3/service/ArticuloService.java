@@ -1,189 +1,178 @@
 package arkham.knight.practica3.service;
 
 import arkham.knight.practica3.encapsulacion.Articulo;
+import arkham.knight.practica3.encapsulacion.Comentario;
+import arkham.knight.practica3.encapsulacion.Etiqueta;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.Date;
+
 
 public class ArticuloService {
+    public static ArrayList<Articulo> listarArticulos() {
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+        ArrayList<Articulo> articulos = new ArrayList<>();
 
-    public List<Articulo> listaArticulos() {
-        List<Articulo> lista = new ArrayList<>();
-        Connection conexionList = null; //objeto conexion.
         try {
-            //
-            String query = "select * from Articulo ";
-            conexionList = DataBaseService.getInstancia().getConexion(); //referencia a la conexion.
-            //
-            PreparedStatement prepareStatement = conexionList.prepareStatement(query);
+            // Consultando todos los articulos.
+            String articulosQuery = "SELECT * FROM articulos ORDER BY fecha DESC;";
+
+            // Ejecuta el query pasado por parámetro "usuarioDefecto".
+            Statement statement = conexion.createStatement();
+            ResultSet resultado = statement.executeQuery(articulosQuery);
+
+            while(resultado.next()) {
+                ArrayList<Comentario> comentarios = ComentarioService.listarComentarios(resultado.getLong("id"));
+                ArrayList<Etiqueta> etiquetas = EtiquetaService.conseguirEtiquetas(resultado.getLong("id"));
+
+                articulos.add(
+                        new Articulo(resultado.getLong("id"),
+                                resultado.getNString("titulo"),
+                                resultado.getNString("cuerpo"),
+                                UsuarioService.buscarUsuario(resultado.getLong("usuarioid")),
+                                resultado.getDate("fecha"),
+                                comentarios,
+                                etiquetas
+                        )
+                );
+            }
+
+            statement.close();
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } finally{
+            try {
+                conexion.close();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        return articulos;
+    }
+
+    public static Articulo buscarArticulo(long id) {
+        Articulo articulo = null;
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+
+        try {
+            // Crealo si no existe y si existe actualizalo.
+            String articuloEncontrado = "SELECT * FROM articulos WHERE id = " + id + ";";
+
+            // Ejecuta el query pasado por parámetro "usuarioDefecto".
+            PreparedStatement prepareStatement = conexion.prepareStatement(articuloEncontrado);
+            ResultSet rs = prepareStatement.executeQuery();
+
+            while(rs.next()) {
+                ArrayList<Comentario> comentarios = ComentarioService.listarComentarios(rs.getLong("id"));
+                ArrayList<Etiqueta> etiquetas = EtiquetaService.conseguirEtiquetas(rs.getLong("id"));
+
+                // TODO Obtener los verdaderos datos del usuario
+                articulo = new Articulo(
+                        rs.getLong("id"),
+                        rs.getNString("titulo"),
+                        rs.getNString("cuerpo"),
+                        UsuarioService.buscarUsuario(rs.getLong("usuarioid")),
+                        rs.getDate("fecha"),
+                        comentarios, etiquetas
+                );
+            }
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } finally{
+            try {
+                conexion.close();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        return articulo;
+    }
+
+    public static boolean crearArticulo(long id, String titulo, String cuerpo, long usuarioID, LocalDate fecha) {
+        boolean creadoCorrectamente = false;
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+
+        try {
+            // Crealo si no existe y si existe actualizalo.
+            String articuloNuevo = "MERGE INTO articulos \n" +
+                    "KEY(ID) \n" +
+                    "VALUES (" + id + ",'" + titulo + "','" + cuerpo + "'," + usuarioID + ",'" + fecha + "');";
+
+            // Ejecuta el query pasado por parámetro "usuarioDefecto".
+            PreparedStatement prepareStatement = conexion.prepareStatement(articuloNuevo);
+
+            // Si se ejecutó el query bien pues la cantidad de filas de la tabla debe ser mayor a 0, pues se ha insertado una fila.
+            int fila = prepareStatement.executeUpdate();
+            creadoCorrectamente = fila > 0 ;
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } finally{
+            try {
+                conexion.close();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        return creadoCorrectamente;
+    }
+
+    public static void eliminarArticulo(Long id) {
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+        ArrayList<Articulo> articulos = new ArrayList<>();
+        boolean creadoCorrectamente;
+
+        try {
+            // Consultando y eliminando el articulo que tenga el id indicando.
+            String eliminarArticuloQuery = "DELETE FROM articulos where ID = " + id + ";";
+
+            // Ejecuta el query pasado por parámetro "usuarioDefecto".
+            PreparedStatement prepareStatement = conexion.prepareStatement(eliminarArticuloQuery);
+
+            // Si se ejecutó el query bien pues la cantidad de filas de la tabla debe ser mayor a 0, pues se ha insertado una fila.
+            int fila = prepareStatement.executeUpdate();
+            creadoCorrectamente = fila > 0 ;
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } finally{
+            try {
+                conexion.close();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    public static Long conseguirTamano() {
+        Long ultimoID = new Long(0);
+        Connection conexion = DataBaseService.getInstancia().getConexion();
+
+        try {
+            // Crealo si no existe y si existe actualizalo.
+            String conseguirTamanoTabla = "SELECT TOP 1 * FROM articulos ORDER BY ID DESC;";
+
+            // Ejecuta el query pasado por parámetro "usuarioDefecto".
+            PreparedStatement prepareStatement = conexion.prepareStatement(conseguirTamanoTabla);
             ResultSet resultado = prepareStatement.executeQuery();
             while(resultado.next()){
-                Articulo articulo = new Articulo();
-                articulo.setId(resultado.getLong("id"));
-                articulo.setTitulo(resultado.getString("titulo"));
-                articulo.setCuerpo(resultado.getString("cuerpo"));
-             //   articulo.setFecha(resultado.getDate("fecha"));
-              //  articulo.setFecha(resultado.getString("fecha"));
-
-                lista.add(articulo);
+                ultimoID = resultado.getLong("id");
             }
 
         } catch (SQLException ex) {
-            Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
         } finally{
             try {
-                conexionList.close();
+                conexion.close();
             } catch (SQLException ex) {
-                Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
+                ex.printStackTrace();
             }
         }
-
-        return lista;
-    }
-
-
-    public Articulo getArticulo(long id) {
-        Articulo art = null;
-        Connection conexionGet = null;
-        try {
-            //utilizando los comodines (?)...
-            String query = "select * from Articulo where id = ?";
-            conexionGet = DataBaseService.getInstancia().getConexion();
-            //
-            PreparedStatement prepareStatement = conexionGet.prepareStatement(query);
-            //Antes de ejecutar seteo los parametros.
-            prepareStatement.setLong(1, id);
-            //Ejecuto...
-            ResultSet resultado = prepareStatement.executeQuery();
-            while(resultado.next()){
-                Articulo articulo = new Articulo();
-                articulo.setId(resultado.getLong("id"));
-                articulo.setTitulo(resultado.getString("titulo"));
-                articulo.setCuerpo(resultado.getString("cuerpo"));
-             //   articulo.setFecha(resultado.getDate("fecha"));
-            }
-
-        } catch (SQLException ex) {
-            Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-        } finally{
-            try {
-                conexionGet.close();
-            } catch (SQLException ex) {
-                Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-
-        return art;
-    }
-
-
-
-
-    public boolean crearArticulo(Articulo articulo){
-        boolean ok =false;
-
-        Connection conexionCreate = null;
-        try {
-
-            String query = "insert into Articulo(id, titulo, cuerpo) values(?,?,?)";
-            conexionCreate = DataBaseService.getInstancia().getConexion();
-            //
-            PreparedStatement prepareStatement = conexionCreate.prepareStatement(query);
-            //Antes de ejecutar seteo los parametros.
-            prepareStatement.setLong(1, articulo.getId());
-            prepareStatement.setString(2, articulo.getTitulo());
-            prepareStatement.setString(3, articulo.getCuerpo());
-           // prepareStatement.setDate(4, articulo.getFecha());
-
-            //
-            int fila = prepareStatement.executeUpdate();
-            ok = fila > 0 ;
-
-        } catch (SQLException ex) {
-            Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-        } finally{
-            try {
-                conexionCreate.close();
-            } catch (SQLException ex) {
-                Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-
-        return ok;
-    }
-
-
-
-
-    public boolean actualizarArticulo(Articulo articulo){
-        boolean ok =false;
-
-        Connection conexionUpdate = null;
-        try {
-
-            String query = "update Articulo set titulo=?, cuerpo=? where id = ?";
-            conexionUpdate = DataBaseService.getInstancia().getConexion();
-            //
-            PreparedStatement prepareStatement = conexionUpdate.prepareStatement(query);
-            //Antes de ejecutar seteo los parametros.
-            prepareStatement.setString(1, articulo.getTitulo());
-            prepareStatement.setString(2, articulo.getCuerpo());
-
-            //Indica el where...
-            prepareStatement.setLong(3, articulo.getId());
-            //
-            int fila = prepareStatement.executeUpdate();
-            ok = fila > 0 ;
-
-        } catch (SQLException ex) {
-            Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-        } finally{
-            try {
-                conexionUpdate.close();
-            } catch (SQLException ex) {
-                Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-
-        return ok;
-    }
-
-
-
-    public boolean borrarArticulo(long id){
-        boolean ok =false;
-
-        Connection conexionDelete = null;
-        try {
-
-            String query = "delete from Articulo where id = ?";
-            conexionDelete = DataBaseService.getInstancia().getConexion();
-            //
-            PreparedStatement prepareStatement = conexionDelete.prepareStatement(query);
-
-            //Indica el where...
-            prepareStatement.setLong(1, id);
-            //
-            int fila = prepareStatement.executeUpdate();
-            ok = fila > 0 ;
-
-        } catch (SQLException ex) {
-            Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-        } finally{
-            try {
-                conexionDelete.close();
-            } catch (SQLException ex) {
-                Logger.getLogger(ArticuloService.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-
-        return ok;
+        return ultimoID;
     }
 }
