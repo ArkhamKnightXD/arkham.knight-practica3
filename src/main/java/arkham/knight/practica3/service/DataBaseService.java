@@ -10,13 +10,13 @@ import java.util.logging.Logger;
 
 public class DataBaseService {
 
-    private static DataBaseService instancia;
+    public static DataBaseService instancia;
     private String URL = "jdbc:h2:tcp://localhost/~/arkhamknight"; //Modo Server...
 
     /**
      *Implementando el patron Singleton
      */
-    private  DataBaseService(){
+    public DataBaseService(){
         registrarDriver();
     }
 

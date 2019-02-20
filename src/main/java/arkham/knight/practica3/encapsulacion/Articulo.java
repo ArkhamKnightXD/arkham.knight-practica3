@@ -1,6 +1,7 @@
 package arkham.knight.practica3.encapsulacion;
 
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -14,12 +15,12 @@ public class Articulo {
     private List<Comentario> listaComentarios;
     private List<Etiqueta> listaEtiquetas;
 
-    public Articulo(long id, String titulo, String cuerpo, Date fecha, Usuario autor, List<Comentario> listaComentarios, List<Etiqueta> listaEtiquetas) {
+    public Articulo(long id, String titulo, String cuerpo, Usuario autor, Date fecha, ArrayList<Comentario> listaComentarios, ArrayList<Etiqueta> listaEtiquetas) {
         this.id = id;
         this.titulo = titulo;
         this.cuerpo = cuerpo;
-        this.fecha = fecha;
         this.autor = autor;
+        this.fecha = fecha;
         this.listaComentarios = listaComentarios;
         this.listaEtiquetas = listaEtiquetas;
     }
@@ -88,5 +89,18 @@ public class Articulo {
         this.listaEtiquetas = listaEtiquetas;
     }
 
+
+    public String getCuerpoCorto() {
+        String cuerpoCorto = "";
+
+        for(int i = 0; i < 70; i++) {
+            if(i >= this.getCuerpo().length())
+                break;
+
+            cuerpoCorto += this.getCuerpo().charAt(i);
+        }
+
+        return cuerpoCorto;
+    }
 
 }

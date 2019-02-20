@@ -1,15 +1,15 @@
 package arkham.knight.practica3.encapsulacion;
 
 public class Usuario {
+    private long id;
     private String username;
-    private String nombre;
     private String password;
     private boolean administrador;
     private boolean autor;
 
-    public Usuario(String username, String nombre, String password, boolean administrador, boolean autor) {
+    public Usuario(long id, String username, String password, boolean administrador, boolean autor) {
+        this.id = id;
         this.username = username;
-        this.nombre = nombre;
         this.password = password;
         this.administrador = administrador;
         this.autor = autor;
@@ -24,20 +24,21 @@ public class Usuario {
         return mensaje;
     }
 
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getUsername() {
         return username;
     }
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public String getPassword() {

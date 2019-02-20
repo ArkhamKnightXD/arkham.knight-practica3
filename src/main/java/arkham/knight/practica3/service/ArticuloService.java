@@ -4,6 +4,7 @@ import arkham.knight.practica3.encapsulacion.Articulo;
 import arkham.knight.practica3.encapsulacion.Comentario;
 import arkham.knight.practica3.encapsulacion.Etiqueta;
 
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
