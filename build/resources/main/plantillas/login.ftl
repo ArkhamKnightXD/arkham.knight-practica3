@@ -1,35 +1,70 @@
 <#import "/plantillas/base.ftl" as base>
 <@base.pagina>
-<div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-10 mt-2 bg-light px-4 rounded-0 login">
-            <div class="row">
-                <form class="col-11 py-5" method="post" action="/login">
-                    <div class="panel px-2 py-3 bg-white">
-                        <label for="user"><strong>Nombre de usuario</strong> </label>
-                        <input type="text" class="form-control rounded-0" name="username" placeholder="usuario"
-                               required=""
-                               autofocus=""/>
-                        <br>
-                        <label for="password"><strong>Contraseña</strong></label>
-                        <input type="password" class="form-control rounded-0" name="password" placeholder="contraseña"
-                               required=""/>
-                        <br>
-                        <hr noshade>
-                        <input class="form-check-input" type="radio" name="guardarSesion">
-                        <label class="form-check-label" for="guardarSesion">
-                            <strong>Guardar sesión</strong>
-                        </label>
-                    </div>
-                    <button class="btn btn-outline-dark btn-block my-3" type="submit">
-                        ACCEDER
-                    </button>
-                </form>
-                <h5 class="col-1 pt-3">
-                    <strong class="upbottom-letters">LOGIN ログイン</strong>
-                </h5>
-            </div>
-        </div>
-    </div>
-</div>
+	<title>Login V18</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+<body style="background-color: #666666;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" method="post" action="/login">
+					<span class="login100-form-title p-b-43">
+						Login to continue
+					</span>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="username" placeholder="username"
+							   required=""
+							   autofocus=""/>
+						<span class="focus-input100"></span>
+						<span class="label-input100">Username</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" name="password" placeholder="password"
+							   required=""/>>
+						<span class="focus-input100"></span>
+						<span class="label-input100">Password</span>
+					</div>
+
+					<div class="flex-sb-m w-full p-t-3 p-b-32">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="radio" name="guardarSesion">
+							<label class="label-checkbox100" for="guardarSesion">
+								Remember me
+							</label>
+						</div>
+						
+					</div>
+			
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" type="submit">
+							Login
+						</button>
+					</div>
+					
+
+
+					<div class="login100-form-social flex-c-m">
+						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+							<i class="fa fa-facebook-f" aria-hidden="true"></i>
+						</a>
+
+						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+
+				<div class="login100-more" style="background-image: url('images/bg-01.jpg');">
+				</div>
+			</div>
+		</div>
+	</div>
 </@base.pagina>

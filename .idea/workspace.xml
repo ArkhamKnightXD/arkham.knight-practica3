@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8493d43f-8cfc-44a2-b7f6-8ca4a4ab4171" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Articulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/path/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/path/Ruta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/EtiquetaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/EtiquetaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/login.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -80,43 +73,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/base.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/publico/estilos/estilo.css">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="217">
+              <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#286#320#0#HTML" expanded="true" />
+                <element signature="e#2072#2122#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/eliminar-articulo.ftl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login2.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="125">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,6 +154,11 @@
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/path/Ruta.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/plantillas/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/plantillas/login2.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/plantillas/login.ftl" />
       </list>
     </option>
   </component>
@@ -247,7 +248,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="publico" type="462c0819:PsiDirectoryNode" />
+              <item name="plantillas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +257,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="publico" type="462c0819:PsiDirectoryNode" />
-              <item name="estilos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +270,7 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550699017622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550702742663" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -340,16 +340,15 @@
       <workItem from="1550610767323" duration="984000" />
       <workItem from="1550618133737" duration="1723000" />
       <workItem from="1550691556455" duration="2292000" />
-      <workItem from="1550696181271" duration="3393000" />
+      <workItem from="1550696181271" duration="6531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35775000" />
+    <option name="totallyTimeSpent" value="38913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -428,11 +427,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c5a30c5-8802-4a65-b264-82a454923b82/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e3f121d-7962-4b6b-8f9c-1216c7592a1b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -444,13 +438,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2976689-e9c6-4032-b921-ec3cdb614ad2/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,7 +533,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/publico/estilos/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -563,10 +557,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/publico/estilos/estilo.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/editar-articulo.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/registro.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/encapsulacion/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/base.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login2.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/eliminar-articulo.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
+          <folding>
+            <element signature="e#286#320#0#HTML" expanded="true" />
+            <element signature="e#2072#2122#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
