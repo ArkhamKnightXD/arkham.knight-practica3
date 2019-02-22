@@ -1,6 +1,5 @@
 <#import "/plantillas/base.ftl" as base>
 <@base.pagina>
-	<title>Login V18</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,27 +16,28 @@
 					
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="username" placeholder="username"
+						<input class="input100" type="text" name="username" placeholder="username..."
 							   required=""
 							   autofocus=""/>
 						<span class="focus-input100"></span>
-						<span class="label-input100">Username</span>
+                        <span class="focus-input100"></span>
 					</div>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" name="password" placeholder="password"
-							   required=""/>>
+						<input class="input100" name="password" placeholder="password..."
+							   required=""/>
 						<span class="focus-input100"></span>
-						<span class="label-input100">Password</span>
+                        <span class="focus-input100"></span>
+
 					</div>
 
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
 						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="radio" name="guardarSesion">
-							<label class="label-checkbox100" for="guardarSesion">
-								Remember me
-							</label>
+                            <input class="input-checkbox100" type="radio" name="guardarSesion">
+                            <label class="label-checkbox100" for="guardarSesion">
+                                <strong>Remember me</strong>
+                            </label>
 						</div>
 						
 					</div>
