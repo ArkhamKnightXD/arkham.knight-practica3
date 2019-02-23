@@ -10,10 +10,10 @@
                         <i class="fas fa-calendar-alt"></i> ${articulo.fecha}
                         <#if tienePermisos>
                             <a href="/articulo/editar/${articulo.id}" class="text-success ml-2">
-                                <i class="fas fa-edit"></i> Editar artículo
+                                <i class="fas fa-edit"></i> Editar articulo
                             </a>
                             <a href="/articulo/eliminar/${articulo.id}" class="text-primary ml-2">
-                                <i class="fas fa-trash-alt"></i> Eliminar artículo
+                                <i class="fas fa-trash-alt"></i> Eliminar articulo
                             </a>
                         </#if>
                     </strong>

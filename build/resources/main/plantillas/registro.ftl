@@ -11,7 +11,7 @@
                                required=""
                                autofocus=""/>
                         <br>
-                        <label for="password"><strong>Contraseña</strong></label>
+                        <label for="password"><strong>Password</strong></label>
                         <input type="password" class="form-control rounded-0" name="password" placeholder="contraseña"
                                required=""/>
                         <br>

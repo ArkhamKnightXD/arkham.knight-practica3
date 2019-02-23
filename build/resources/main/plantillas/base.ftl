@@ -65,7 +65,7 @@
         <div class="col">
             <div class="row">
                 <div class="col-12 p-0">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 boxed-shadow">
+                    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" p-0 boxed-shadow">
                         <a class="navbar-brand" href="/"><img src="/imagenes/logo.png" width="180"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -75,14 +75,14 @@
                                 <ul class="navbar-nav mr-auto">
                                     <#if permisos>
                                         <li class="nav-item">
-                                            <a class="btn btn-link text-dark" href="/articulo/crear">
-                                                <i class="fas fa-newspaper"></i> Crear artículo
+                                            <a class="btn btn-link text-light" href="/articulo/crear">
+                                                <i class="fas fa-newspaper"></i> Crear articulo
                                             </a>
                                         </li>
                                     </#if>
                                     <#if admin>
                                         <li class="nav-item">
-                                            <a class="btn btn-link text-dark" href="/registrar">
+                                            <a class="btn btn-link text-light" href="/registrar">
                                                 <i class="fas fa-user-plus"></i> Registrar usuario
                                             </a>
                                         </li>

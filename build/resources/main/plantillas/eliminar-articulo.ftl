@@ -6,14 +6,14 @@
             <div class="row">
                 <form class="col-11 py-5" method="post" action="/articulo/eliminar/${articulo.id}">
                     <div class="panel px-2 py-3 bg-white">
-                        ¿Está seguro de eliminar el artículo <strong>${articulo.titulo}</strong>?
+                        Seguro que desea eliminar el articulo <strong>${articulo.titulo}</strong>?
                     </div>
                     <button class="btn btn-outline-dark btn-block my-3" type="submit">
-                        ELIMINAR ARTÍCULO
+                        ELIMINAR ARTICULO
                     </button>
                 </form>
                 <h5 class="col-1 pt-3">
-                    <strong class="upbottom-letters">ARTÍCULO 記事</strong>
+                    <strong class="upbottom-letters">ARTICULO</strong>
                 </h5>
             </div>
         </div>
