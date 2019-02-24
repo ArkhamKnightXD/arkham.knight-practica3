@@ -7,12 +7,12 @@
                 <form class="col-11 py-5" method="post" action="/login">
                     <div class="panel px-2 py-3 bg-white">
                         <label for="user"><strong>Username</strong> </label>
-                        <input type="text" class="form-control rounded-0" name="username" placeholder="usuario"
+                        <input type="text" class="form-control rounded-0" name="username" placeholder="username"
                                required=""
                                autofocus=""/>
                         <br>
                         <label for="password"><strong>Password</strong></label>
-                        <input type="password" class="form-control rounded-0" name="password" placeholder="contraseña"
+                        <input type="password" class="form-control rounded-0" name="password" placeholder="password"
                                required=""/>
                         <br>
                         <hr noshade>
@@ -21,13 +21,10 @@
                             <strong>Remember me</strong>
                         </label>
                     </div>
-                    <button class="btn btn-outline-dark btn-block my-3" type="submit">
+                    <button class="btn btn-outline-primary btn-block my-3" type="submit">
                         ACCEDER
                     </button>
                 </form>
-                <h5 class="col-1 pt-3">
-                    <strong class="upbottom-letters">LOGIN</strong>
-                </h5>
             </div>
         </div>
     </div>

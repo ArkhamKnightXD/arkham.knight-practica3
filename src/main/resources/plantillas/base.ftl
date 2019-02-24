@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" p-0 boxed-shadow">
-                        <a class="navbar-brand" href="/"><img src="/imagenes/logo.png" width="180"></a>
+                        <a class="navbar-brand" href="/"><img src="/imagenes/logo.png" width="120" height="110"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -76,20 +76,20 @@
                                     <#if permisos>
                                         <li class="nav-item">
                                             <a class="btn btn-link text-light" href="/articulo/crear">
-                                                <i class="fas fa-newspaper"></i> Crear articulo
+                                                <i class="fas fa-plus-square"></i> Crear articulo
                                             </a>
                                         </li>
                                     </#if>
                                     <#if admin>
                                         <li class="nav-item">
                                             <a class="btn btn-link text-light" href="/registrar">
-                                                <i class="fas fa-user-plus"></i> Registrar usuario
+                                                <i class="fas fa-user-alt"></i> Registrar usuario
                                             </a>
                                         </li>
                                     </#if>
                                 </ul>
-                                <img class="rounded-circle boxed-shadow" src="/imagenes/perfil.jpg" alt="foto de usuario" width="64px">
-                                <a class="mx-2 nombre-usuario px-1"><strong>${usuario}</strong></a>
+                                <img class="rounded boxed-shadow" src="/imagenes/perfil.jpg" alt="foto de usuario" width="80px" height="80">
+                                <a class="mx-2 nombre-usuario px-3 text-light"><strong>${usuario}</strong></a>
                                 <a class="btn btn-dark mr-2" href="/salir">
                                     <i class="fas fa-sign-out-alt"></i> Salir
                                 </a>

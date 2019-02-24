@@ -6,14 +6,14 @@
             <div class="card-body">
                 <h5 class="card-title">
                     ${articulo.titulo}
-                    <strong class="text-warning m-0 float-right">
-                        <i class="fas fa-calendar-alt"></i> ${articulo.fecha}
+                    <strong class="text-primary m-0 float-right">
+                        <i class="fas fa-calendar-check-o" ></i> ${articulo.fecha}
                         <#if tienePermisos>
-                            <a href="/articulo/editar/${articulo.id}" class="text-success ml-2">
+                            <a href="/articulo/editar/${articulo.id}" class="text-dark ml-2">
                                 <i class="fas fa-edit"></i> Editar articulo
                             </a>
-                            <a href="/articulo/eliminar/${articulo.id}" class="text-primary ml-2">
-                                <i class="fas fa-trash-alt"></i> Eliminar articulo
+                            <a href="/articulo/eliminar/${articulo.id}" class="text-danger ml-2">
+                                <i class="fas fa-minus-circle"></i> Eliminar articulo
                             </a>
                         </#if>
                     </strong>
@@ -44,14 +44,11 @@
                                 <label for="comentario"><strong>Comentario</strong></label>
                                 <textarea name="comentario" class="form-control rounded-0"></textarea>
                             </div>
-                            <button class="btn btn-outline-dark btn-block my-3" type="submit">
+                            <button class="btn btn-outline-primary btn-block my-3" type="submit">
                                 COMENTAR
                             </button>
                         </form>
-                        <h5 class="col-1 pt-3">
-                            <strong class="upbottom-letters">COMENTAR</strong>
-                        </h5>
-                    </div>
+                                            </div>
                 </div>
                 <div class="col-12 mt-2 bg-light px-4 rounded-0 login">
                     <div class="row">

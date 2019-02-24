@@ -15,13 +15,10 @@
                         <label for="etiquetas"><strong>Etiquetas</strong></label>
                         <textarea name="etiquetas" class="form-control rounded-0"><#list articulo.listaEtiquetas as etiqueta>${etiqueta.etiqueta},</#list></textarea>
                        </div>
-                    <button class="btn btn-outline-dark btn-block my-3" type="submit">
+                    <button class="btn btn-outline-primary btn-block my-3" type="submit">
                         EDITAR ARTICULO
                     </button>
                 </form>
-                <h5 class="col-1 pt-3">
-                    <strong class="upbottom-letters">ARTICULO</strong>
-                </h5>
             </div>
         </div>
     </div>
