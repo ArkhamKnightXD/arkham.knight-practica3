@@ -9,35 +9,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2976689-e9c6-4032-b921-ec3cdb614ad2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2976689-e9c6-4032-b921-ec3cdb614ad2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/DataBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/arkham/knight/practica3/service/DataBaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/base.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/crear-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/crear-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/editar-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/editar-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/eliminar-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/eliminar-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/registro.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/registro.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/publico/imagenes/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/publico/imagenes/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/publico/imagenes/perfil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/publico/imagenes/perfil.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/publico/imagenes/wallpaper-883199.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/crear-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/editar-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/editar-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/eliminar-articulo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/eliminar-articulo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/login2.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/registro.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/registro.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/imagenes/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/publico/imagenes/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/imagenes/perfil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/publico/imagenes/perfil.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/imagenes/wallpaper-883199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/287c8fe8-8fb9-4c1e-a7a3-a18e0597f354.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53f7fbba-7beb-4b87-9037-1e0440a0a9a1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cba8a352-32ff-4f5a-81df-c41fe07f4e5d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e9ab5014-47ee-4086-9021-69525fecde4e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2976689-e9c6-4032-b921-ec3cdb614ad2.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,7 +35,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/arkhamknightXD" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/arkhamknightXD" type="feb32156:DbDataSourceImpl" />
+        <item name="ARKHAMKNIGHTXD: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:tcp://localhost/~/arkhamknightXD" type="feb32156:DbDataSourceImpl" />
+        <item name="ARKHAMKNIGHTXD: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -89,14 +81,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/base.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1380">
+              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
+            <state relative-caret-position="23">
               <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,35 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/UsuarioService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-599">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ArticuloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="309">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,9 +182,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="width" value="875" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="width" value="702" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -212,33 +195,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -246,7 +231,7 @@
               <item name="practica3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -255,14 +240,14 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practica 3 " type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="arkham.knight-practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -273,8 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,12 +341,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47037000" />
+    <option name="totallyTimeSpent" value="47325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -372,7 +355,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +373,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -537,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="286">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
@@ -551,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="759">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -565,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/plantillas/base.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="84" column="77" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
+        <state relative-caret-position="1380">
+          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -608,12 +591,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e9ab5014-47ee-4086-9021-69525fecde4e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cba8a352-32ff-4f5a-81df-c41fe07f4e5d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e9ab5014-47ee-4086-9021-69525fecde4e/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cba8a352-32ff-4f5a-81df-c41fe07f4e5d/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/ComentarioService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230">
@@ -644,12 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53f7fbba-7beb-4b87-9037-1e0440a0a9a1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53f7fbba-7beb-4b87-9037-1e0440a0a9a1/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/BootStrapService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
+        <state relative-caret-position="23">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -659,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arkham/knight/practica3/service/DataBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="309">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
