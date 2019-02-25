@@ -6,9 +6,9 @@
             <div class="col-6 mx-auto p-0">
                 <div class="card mx-2 mb-5">
                     <div class="card-body">
-                        <h5 class="card-title">${articulo.titulo}</h5>
+                        <h5 class="card-title text-primary">${articulo.titulo}</h5>
                         <p class="card-text text-muted m-0 cuerpo-corto">${articulo.cuerpoCorto}</p>
-                        <a href="/articulo/${articulo.id}" class="text-primary float-right"><strong>Leer mas</strong></a>
+                        <a href="/articulo/${articulo.id}" class="text-primary float-right"><strong>Ver mas</strong></a>
                     </div>
                     <div class="card-footer p-2">
                         <strong class="text-danger m-0">

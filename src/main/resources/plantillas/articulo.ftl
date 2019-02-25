@@ -4,10 +4,9 @@
     <div class="row">
         <div class="card col-10 mx-auto p-0">
             <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title text-primary">
                     ${articulo.titulo}
-                    <strong class="text-primary m-0 float-right">
-                        <i class="fas fa-calendar-check-o" ></i> ${articulo.fecha}
+                    <strong class=" m-0 float-right">
                         <#if tienePermisos>
                             <a href="/articulo/editar/${articulo.id}" class="text-dark ml-2">
                                 <i class="fas fa-edit"></i> Editar articulo
@@ -20,7 +19,7 @@
                 </h5>
                 <p class="card-text text-muted m-0">${articulo.cuerpo}</p>
             </div>
-            <div class="col-12 mt-2 bg-white px-4 rounded-0 login">
+            <div class="col-12 mt-2 bg-dark text-light px-4 rounded-0 login">
                 <div class="row">
                     <h5 class="col-12 pt-3">
                         <strong>ETIQUETAS</strong>
@@ -50,7 +49,7 @@
                         </form>
                                             </div>
                 </div>
-                <div class="col-12 mt-2 bg-light px-4 rounded-0 login">
+                <div class="col-12 mt-2 bg-dark text-light px-4 rounded-0 login">
                     <div class="row">
                         <h5 class="col-12 pt-3">
                             <strong>COMENTARIOS</strong>

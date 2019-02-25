@@ -1,7 +1,6 @@
 package arkham.knight.practica3.service;
 
 import org.h2.tools.Server;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;

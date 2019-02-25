@@ -12,9 +12,6 @@
                         ELIMINAR ARTICULO
                     </button>
                 </form>
-                <h5 class="col-1 pt-3">
-                    <strong class="upbottom-letters">ARTICULO</strong>
-                </h5>
             </div>
         </div>
     </div>

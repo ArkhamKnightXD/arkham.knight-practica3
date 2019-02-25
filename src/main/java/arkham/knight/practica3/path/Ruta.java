@@ -6,7 +6,6 @@ import freemarker.template.Template;
 import freemarker.template.Version;
 import org.jasypt.util.text.StrongTextEncryptor;
 import spark.Session;
-
 import java.io.StringWriter;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -22,8 +21,6 @@ import arkham.knight.practica3.service.ComentarioService;
 import arkham.knight.practica3.service.EtiquetaService;
 import arkham.knight.practica3.service.UsuarioService;
 import arkham.knight.practica3.service.BootStrapService;
-
-
 import static spark.Spark.*;
 import static spark.Spark.notFound;
 
@@ -128,13 +125,7 @@ public class Ruta {
             atributos.put("nombreUsuario", nombreUsuario);
             atributos.put("tienePermisos", usuario.isAdministrador() || usuario.isAutor());
             atributos.put("esAdmin", usuario.isAdministrador());
-            /*
-            atributos.put("etiquetasBool", etiquetasBool);
 
-            if(etiquetasBool) {
-                atributos.put("etiquetas", articulo.getListaEtiquetas().get(1));
-            }
-            */
             template.process(atributos, writer);
 
             return writer;

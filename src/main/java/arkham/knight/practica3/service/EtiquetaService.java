@@ -4,18 +4,10 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-
 import arkham.knight.practica3.encapsulacion.Etiqueta;
-import arkham.knight.practica3.encapsulacion.Comentario;
-import arkham.knight.practica3.encapsulacion.Etiqueta;
-import arkham.knight.practica3.encapsulacion.Usuario;
-import arkham.knight.practica3.encapsulacion.Articulo;
 
 public class EtiquetaService {
 
-    /*
-            Te permite conseguir todas las etiquetas que hay registradas en la base de datos por medio del form.
-    */
 
     public static ArrayList<Etiqueta> conseguirEtiquetas(Long idArticulo) {
         ArrayList<Etiqueta> etiquetas = new ArrayList<Etiqueta>();

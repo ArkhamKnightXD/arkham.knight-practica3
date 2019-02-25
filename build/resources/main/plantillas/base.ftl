@@ -6,11 +6,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Videojuegos</title>
-    <link rel="stylesheet" href="/estilos/estilo.css">
+    <title>Gamestop</title>
+    <link rel="stylesheet" href="/estilos/style.css">
 
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="icon" type="image/png" href="images/icons/favicon.png"/>
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -91,7 +91,7 @@
                                 <img class="rounded boxed-shadow" src="/imagenes/perfil.jpg" alt="foto de usuario" width="80px" height="80">
                                 <a class="mx-2 nombre-usuario px-3 text-light"><strong>${usuario}</strong></a>
                                 <a class="btn btn-dark mr-2" href="/salir">
-                                    <i class="fas fa-sign-out-alt"></i> Salir
+                                    <i class="fas fa-sign-out-alt"></i> Sing out
                                 </a>
                             </#if>
                         </div>

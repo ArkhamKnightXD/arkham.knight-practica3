@@ -2,12 +2,7 @@ package arkham.knight.practica3.service;
 
 import java.sql.*;
 import java.util.ArrayList;
-
 import arkham.knight.practica3.encapsulacion.Comentario;
-import arkham.knight.practica3.encapsulacion.Etiqueta;
-import arkham.knight.practica3.encapsulacion.Usuario;
-import arkham.knight.practica3.encapsulacion.Articulo;
-
 
 public class ComentarioService {
 
