@@ -83,7 +83,7 @@
                                     <#if admin>
                                         <li class="nav-item">
                                             <a class="btn btn-link text-light" href="/registrar">
-                                                <i class="fas fa-user-alt"></i> Registrar usuario
+                                                <i class="fas fa-user-alt"></i> Registro de usuario
                                             </a>
                                         </li>
                                     </#if>

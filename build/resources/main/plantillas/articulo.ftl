@@ -8,7 +8,7 @@
                     ${articulo.titulo}
                     <strong class=" m-0 float-right">
                         <#if tienePermisos>
-                            <a href="/articulo/editar/${articulo.id}" class="text-dark ml-2">
+                            <a href="/articulo/editar/${articulo.id}" class="text-primary ml-2">
                                 <i class="fas fa-edit"></i> Editar articulo
                             </a>
                             <a href="/articulo/eliminar/${articulo.id}" class="text-danger ml-2">
@@ -17,7 +17,7 @@
                         </#if>
                     </strong>
                 </h5>
-                <p class="card-text text-muted m-0">${articulo.cuerpo}</p>
+                <p class="card-text text-primary m-0">${articulo.cuerpo}</p>
             </div>
             <div class="col-12 mt-2 bg-dark text-light px-4 rounded-0 login">
                 <div class="row">
@@ -26,7 +26,7 @@
                         <hr noshade>
                     </h5>
                         <#if articulo.listaEtiquetas?size gt 0>
-                            <span class="text-primary pb-3 px-3">
+                            <span class="text-light pb-3 px-3">
                                 <i class="fas fa-hashtag"></i>
                                 <#list articulo.listaEtiquetas as etiqueta>
                                     ${etiqueta.etiqueta}
