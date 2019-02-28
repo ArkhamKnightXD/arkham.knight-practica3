@@ -38,6 +38,7 @@ public class Ruta {
 
         staticFiles.location("/publico");
 
+        //filtros
         before("/", (req, res) -> {
             if (req.cookie("sesionSemanal") != null) {
                 StrongTextEncryptor encriptador = new StrongTextEncryptor();
@@ -383,6 +384,7 @@ public class Ruta {
                 return writer;
             });
 
+            // aqui es que esta el fallo de los comentarios al parece no es el id
             post("/:id/comentar", (req, res) -> {
                 Long id = ComentarioService.conseguirTamano() + 1;
                 Long articuloID = Long.parseLong(req.params("id"));

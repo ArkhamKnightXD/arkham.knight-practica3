@@ -34,5 +34,4 @@ public class Etiqueta {
         this.etiqueta = etiqueta;
     }
 
-
 }

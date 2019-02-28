@@ -8,7 +8,7 @@
                     <div class="panel px-2 py-3 bg-white">
                         Seguro que desea eliminar el articulo <strong>${articulo.titulo}</strong>?
                     </div>
-                    <button class="btn btn-outline-dark btn-block my-3" type="submit">
+                    <button class="btn btn-outline-primary btn-block my-3" type="submit">
                         ELIMINAR ARTICULO
                     </button>
                 </form>
